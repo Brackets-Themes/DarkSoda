@@ -3,6 +3,11 @@
 
 * The DarkSoda is a Dark Theme for Brackets!
 
+#Note
+
+This theme is taken from https://github.com/Jacse/themes-for-brackets
+It has been updated by me to work in the Built in brackets Theme Support in Brackets Release 0.42
+
 # How to install
 
 Visit http://brackets-themes.github.io/ to see the latest install instructions.
