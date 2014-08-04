@@ -1,0 +1,21 @@
+{
+    "title": "DarkSoda",
+    "name": "dark_soda_theme",
+    "description": "The Dark soda is a Theme for Brackets!",
+    "version": "0.0.1",
+    "author": "Denisov21",
+    "homepage": "https://github.com/Brackets-Themes/Dark_soda",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Brackets-Themes/DarkSoda.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "dark-soda.css",
+        "dark": true
+    }
+}
+
