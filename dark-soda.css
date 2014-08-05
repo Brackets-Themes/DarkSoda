@@ -170,11 +170,6 @@ code {
 
 .cm-s-dark-soda.CodeMirror { background: #242424; color: #fff; }
 
-.cm-s-dark-soda div.CodeMirror-cursor {
-  border-left: 1px solid #f8f8f0;
-  z-index: 3;
-}
-
 .CodeMirror-selected {
     background: #3d3d3d;
    /* opacity: .23;*/
@@ -227,4 +222,9 @@ code {
 .cm-s-dark-soda.CodeMirror-focused .CodeMirror-activeline-background, .cm-s-dark-soda.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
     background-color: #3C3F41;
     color: #d9d9d9;
+}
+
+.CodeMirror .CodeMirror-cursor {
+    border-left: 2px solid #ff007f !important;
+    z-index: -3;
 }
