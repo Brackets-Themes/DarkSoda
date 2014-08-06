@@ -228,3 +228,9 @@ code {
     border-left: 2px solid #ff007f !important;
     z-index: -3;
 }
+
+.CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid #ff007f;
+    z-index: -3;
+}
