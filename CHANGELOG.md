@@ -1,5 +1,4 @@
-CHANGELOG
-=====================
+# CHANGELOG
 
 v 0.0.1
 
@@ -13,3 +12,7 @@ v 0.0.4
 
 * Small improvement
 * Add License in file CSS
+
+v 0.0.5
+
+* Add .CodeMirror-foldmarker

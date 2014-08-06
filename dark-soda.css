@@ -241,3 +241,12 @@ code {
     border-bottom: 1px solid #ff007f;
     z-index: -3;
 }
+
+/*Plug in "Code Folding"*/
+.CodeMirror-foldmarker {
+     background-color: #333;
+     border-color: #555;
+     color: #75715E;
+     padding-right: 10px;
+     padding-left: 10px;
+}
