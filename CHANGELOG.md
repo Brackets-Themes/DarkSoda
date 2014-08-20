@@ -16,3 +16,7 @@ v 0.0.4
 v 0.0.5
 
 * Add .CodeMirror-foldmarker
+
+v 0.0.6
+
+* https://github.com/Brackets-Themes/DarkSoda/pull/2
