@@ -16,13 +16,6 @@
 .CodeMirror-scrollbar-filler {height:10px !important; width:10px !important;} /* Corner where scrollbars meet. Width and height MUST be the same as that of scrollbars. Background should be the same as that of the scrollbar track*/
 .CodeMirror-gutter-filler{ height:10px !important;} /* Linenumber area left of horizontal scrollbar. Height MUST be the same as width/height of scrollbars */
 
-#status-bar{ /* Bottom status bar */
-    border-top:1px solid #484b4d;
-    background:#3C3F41;
-    color:#FFF;
-}
-#main-toolbar{ background:#3C3F41;}
-
 .inline-widget{ /* Quick-edit styles */
     background:rgb(51, 51, 51);
 }
@@ -48,93 +41,8 @@
     border-right: 1px solid rgb(73, 73, 73);
 }
 
-/* changes to the related container */
-
-.related-container {
-    float: right;
-    position: relative;
-    min-height: 100%;
-    font-family: 'SourceSansPro', Helvetica, Arial, "Meiryo UI", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-    width: 250px;
-    max-width: 50%;
-    overflow: hidden;
-    background: rgb(47, 47, 47);
-}
-
-.related-container .selection {
-    width: 100%;
-    background: rgb(111, 111, 111);
-    position: absolute;
-    -webkit-transition: height 0.1s ease-out;
-    -webkit-transition: top 0.1s ease-out;
-    border-top: 1px solid rgb(95, 95, 95);
-    border-bottom: 1px solid rgb(114, 114, 114);
-    top: 12px;
-}
-
-.related-container .related .selected {
-    color: rgb(236, 236, 236);
-    -webkit-transition: color 0.1s ease-out 0.15s;
-}
-.related-container .selection:before {
-    content: " ";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 9px solid rgba(255, 255, 255, 0);
-    border-bottom: 9px solid rgba(255, 255, 255, 0);
-    border-left: 9px solid rgb(51, 51, 51);
-    margin-top: -9px;
-    top: 50%;
-    -ms-transform: scaleX(0.9);
-    -moz-transform: scaleX(0.9);
-    -webkit-transform: scaleX(0.9);
-    -o-transform: scaleX(0.9);
-    transform: scaleX(0.9);
-    -ms-transform-origin: left top;
-    -moz-transform-origin: left top;
-    -webkit-transform-origin: left top;
-    -o-transform-origin: left top;
-    transform-origin: left top;
-}
-
-
-/* End of related container changes */
-
-#not-editor:before {
-    content: " ";
-    height: 100%;
-    width: 100%;
-    display: -webkit-box;
-    position: absolute;
-    -webkit-box-orient: vertical;
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
-    background-color: rgba(51, 51, 51, 0);
-   /* opacity: .07;*/
-}
-
-#editor-holder #not-editor {
-    height: 100%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    box-orient: vertical;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    box-pack: center;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    box-align: center;
-    background-color: #242424;
-
-}
-
 /* code refs */
 .css-prop-defn code {
-    font-family: SourceCodePro;
     font-size: 12px;
     color: rgb(197, 197, 197);
     background: none;
@@ -147,8 +55,6 @@ code {
     border: 1px solid rgb(122, 122, 122);
     white-space: nowrap;
 }
-
-
 
 .css-prop-defn h1 {
     color: rgb(219, 219, 219);
@@ -177,11 +83,6 @@ code {
 
 .cm-s-dark-soda.CodeMirror { background: #242424; color: #fff; }
 
-.CodeMirror-selected {
-    background: #3d3d3d;
-   /* opacity: .23;*/
-}
-
 .cm-s-dark-soda span.cm-keyword {color: #ff007f;}
 .cm-s-dark-soda span.cm-atom {color: #c48cff;}
 .cm-s-dark-soda span.cm-number {color: #c48cff;}
@@ -198,7 +99,7 @@ code {
 .cm-s-dark-soda span.cm-bracket {color: #f9faf4;}
 .cm-s-dark-soda span.cm-tag {color: #ff007f !important;}
 .cm-s-dark-soda span.cm-attribute {color: #a7ec21;}
-.cm-s-dark-soda span.cm-matchhighlight {background-color: rgba(61,61,61,23);}
+.cm-s-dark-soda span.cm-matchhighlight {background-color: rgba(61,61,61,0.23);}
 
 .cm-s-dark-soda span.CodeMirror-matchingbracket {
     color: #a7ec21;
@@ -208,10 +109,6 @@ code {
     background: rgba(255,255,255,0.15);
 }
 
-
-.cm-s-dark-soda span.CodeMirror-searching {
-  box-shadow: 0 0 0 1px #fff;
-}
 
 .cm-s-dark-soda .CodeMirror-linenumber,.cm-s-dark-soda .CodeMirror-gutters{
     color: #727272;
@@ -227,26 +124,46 @@ code {
     color: #242424;
 }
 .cm-s-dark-soda.CodeMirror-focused .CodeMirror-activeline-background, .cm-s-dark-soda.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-    background-color: #3C3F41;
-    color: #d9d9d9;
+    background: rgba(255, 0, 127, 0.21);
+    
 }
 
 .CodeMirror .CodeMirror-cursor {
-    border-left: 2px solid #ff007f !important;
+    border-left: 1px solid #ff007f !important;
     z-index: -3;
 }
 
 .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
     border-left: none !important;
-    border-bottom: 1px solid #ff007f;
+    border-bottom: 2px solid #ff007f;
     z-index: -3;
 }
 
-/*Plug in "Code Folding"*/
-.CodeMirror-foldmarker {
-     background-color: #333;
-     border-color: #555;
-     color: #75715E;
-     padding-right: 10px;
-     padding-left: 10px;
+/* Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)*/
+.CodeMirror .cm-dk-whitespace-space::before,
+.CodeMirror .cm-dk-whitespace-tab::before,
+.CodeMirror .cm-dk-whitespace-leading-space::before,
+.CodeMirror .cm-dk-whitespace-leading-tab::before,
+.CodeMirror .cm-dk-whitespace-trailing-space::before,
+.CodeMirror .cm-dk-whitespace-trailing-tab::before {
+    background-color: #00a8c6 !important;
 }
+
+/* Code Folding (https://github.com/thehogfather/brackets-code-folding)*/
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter-blank,
+.CodeMirror-foldgutter-folded,
+.CodeMirror-foldgutter-open {
+    color: #00a8c6;
+}
+
+.CodeMirror-foldgutter-open::after {content: "\25bd";}
+.CodeMirror-foldmarker {background-color: #00A8C6; border-color: #5C5C5C; color: #ede0ce; padding: 0 10px;}
+
+
+/* New Class for Brackets 0.43 (searching)*/
+
+.CodeMirror-searching {background-color: #38b2ff; border-bottom: 2px solid #FF5D38; font-weight: bolder;}
+.searching-current-match {background-color: #ede0ce;}
+.quick-view-highlight{background-color: rgb(255, 0, 127); background-color: rgba(255, 0, 127, 0.51);border-bottom: 20px solid #FF5D38; }
