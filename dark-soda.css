@@ -67,7 +67,7 @@ code {
 .css-prop-defn {
     color: rgb(197, 197, 197);
     cursor: auto;
-    font-family: SourceSansPro;
+    /*font-family: SourceSansPro;*/
     font-size: 14px;
 }
 
@@ -82,7 +82,7 @@ code {
 /** CodeMirror styles **/
 
 .CodeMirror { background: #242424; color: #fff; }
-
+.cm-error{ font-style: italic; border-bottom: 2px dotted #ff3292; }
 .cm-keyword {color: #ff007f;}
 .cm-atom {color: #c48cff;}
 .cm-number {color: #c48cff;}
@@ -97,7 +97,7 @@ code {
 .cm-meta {color: #a7ec21;}
 .cm-qualifier, .cm-builtin {color: #a7ec21;}
 .cm-bracket {color: #f9faf4;}
-.cm-tag {color: #ff007f !important;}
+.cm-tag {color: #ff007f;}
 .cm-attribute {color: #a7ec21;}
 .cm-matchhighlight {background-color: rgb(61,61,61); background-color: rgba(61,61,61,0.23);}
 .CodeMirror-selected{background-color: rgb(224,240,250); background-color: rgba(224, 240, 250, 0.2) !important;} /*Selected lines - may need !important*/
@@ -118,11 +118,12 @@ code {
 
 .CodeMirror .CodeMirror-linenumber {
     padding-left: 5px;
+    color: #d14;
 }
 
 .CodeMirror-activeline-background, .CodeMirror-activeline .CodeMirror-gutter-elt {
-    background: rgb(0, 168, 198);
-    background: rgba(0, 168, 198, 0.29) !important;
+    background-color: rgb(0, 168, 198);
+    background-color: rgba(0, 168, 198, 0.29) !important;
 }
 
 .CodeMirror .CodeMirror-cursor {
@@ -163,4 +164,4 @@ code {
 
 .CodeMirror-searching {background-color: #38b2ff; border-bottom: 2px solid #FF5D38; font-weight: bolder;}
 .searching-current-match {background-color: #ede0ce;}
-.quick-view-highlight{ background-color: transparent; border-bottom: 2px solid #FF5D38;}
+.quick-view-highlight {background-color: transparent; border-bottom: 2px solid #FF5D38;}

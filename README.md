@@ -23,9 +23,16 @@ Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
 # Screenshot
 
+# Screenshot
+
 ### HTML
-![Dsoda](https://raw.githubusercontent.com/Brackets-Themes/DarkSoda/master/screenshot.png)
+
+![HTML Screenshot](https://github.com/Brackets-Themes/DarkSoda/blob/master/screenshots/HTML.png)
 
 ### CSS
 
-![Dsoda](https://raw.githubusercontent.com/Brackets-Themes/DarkSoda/master/CSS.png)
+![CSS Screenshot](https://github.com/Brackets-Themes/DarkSoda/blob/master/screenshots/CSS.png)
+
+### JavaScript
+
+![JS Screenshot](https://github.com/Brackets-Themes/DarkSoda/blob/master/screenshots/JS.png)

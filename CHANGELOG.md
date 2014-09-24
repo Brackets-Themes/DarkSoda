@@ -37,3 +37,6 @@ v 0.1.0
 * Change padding in .CodeMirror .CodeMirror-linenumber
 * Add .CodeMirror-selected
 * Many errors fixed!!
+* Add .cm-error
+* change .cm-tag remove !important
+* Add color in .CodeMirror .CodeMirror-linenumber
