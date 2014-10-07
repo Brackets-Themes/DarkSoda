@@ -23,8 +23,6 @@ Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
 # Screenshot
 
-# Screenshot
-
 ### HTML
 
 ![HTML Screenshot](https://github.com/Brackets-Themes/DarkSoda/blob/master/screenshots/HTML.png)
