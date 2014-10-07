@@ -127,12 +127,12 @@ code {
 }
 
 .CodeMirror .CodeMirror-cursor {
-    border-left: 1px solid #ff007f !important;
+    border-left: 1px solid #ff007f;
     z-index: -3;
 }
 
 .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
-    border-left: none !important;
+    border-left: none;
     border-bottom: 2px solid #ff007f;
     z-index: -3;
 }
