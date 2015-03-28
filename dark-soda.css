@@ -50,9 +50,9 @@
 }
 code {
     padding: 2px 4px;
-    color: #d14;
+   /* color: #d14;
     background-color: rgb(158, 158, 158);
-    border: 1px solid rgb(122, 122, 122);
+    border: 1px solid rgb(122, 122, 122);*/
     white-space: nowrap;
 }
 

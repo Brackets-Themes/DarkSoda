@@ -45,6 +45,7 @@ v 0.1.1
 
 * Remove !important in  .CodeMirror-cursor and .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor
 
-v 0.1.2
+v 0.1.3
 
 * Remove main.js in Brackets 1.0.0
+* Fix Issue 5
