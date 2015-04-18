@@ -49,3 +49,7 @@ v 0.1.3
 
 * Remove main.js in Brackets 1.0.0
 * Fix Issue 5
+
+v 0.1.5
+
+* Change Code Folding (https://github.com/thehogfather/brackets-code-folding) and Brackets 1.3 (Code Folding)
