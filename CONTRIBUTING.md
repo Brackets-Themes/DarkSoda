@@ -25,7 +25,7 @@
   4. On OS X it is located at `~/Library/Application Support/Brackets/custom themes`
   5. On Linux it is located at `~/.config/Brackets/custom themes` 
 
-### More information
+### More informations
 
 *    [Wiki Creating Themes](https://github.com/adobe/brackets/wiki/Creating-Themes#packagejson)
 *    [Creating a New Editor Theme Extension](http://curly-bracket.github.io/2014/08/02/create-new-theme/)
